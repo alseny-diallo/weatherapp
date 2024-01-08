@@ -76,7 +76,7 @@ function App() {
           </div>
           <div className='col-md-4'>
             <h1 className='mt-2 text-bg-dark text-center'>Put coordinates</h1>
-            <div>
+            <div className='border border-dark p-2'>
               <div class='form-group'>
                 <label for='lat'>Latitude:</label>
                 <input
