@@ -33,7 +33,7 @@ function App() {
         setReady(true);
       })
       .catch((err) => console.error(err));
-  }, []);
+  }, [lat, lon]);
 
   if (isReady) {
     return (
